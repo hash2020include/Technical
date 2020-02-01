@@ -1,0 +1,72 @@
+A number is given check weather the given number is prime or not.If the given number is prime then caluclate the octal value of that number and print the number of three’s in the octal form of the number.If the given number is not prime then caluclate the nearest prime and find the number of three’s in the octal form of given number.
+If the number has two nearest values then pick the number such that the octal conversion of the number has more number of three’s.
+Input:The first line contains the number of test cases.Next t lines contains an integer.
+Output:print the number of three’s in the octal form of prime numbers in a single line wth spaces between them.
+Sample Testcases:
+Input1:
+3
+28 
+32
+45
+Output1:
+1 1 1
+Input2:
+5   
+31 
+115 
+176 
+120  
+9 
+Output2:
+0 1 0 1 0 1
+Input3:
+6
+39 
+68 
+71  
+143 
+602 
+178  
+Output3:
+0 1 0 1 1 1
+Input4:
+4
+199 
+512 
+639 
+39  
+Output4:
+1 0 0 0
+Input5:
+3
+876 
+159  
+230 
+Output5:
+0 1 1
+Input6:
+6
+179 
+162 163
+34 31 37
+80 79
+63 61
+456 457
+Output6:
+1 1 1 0 0 0
+Input7:
+5
+128 
+146   
+39 
+43 
+182 
+Output7:
+0  0 0 1 0
+Input8:
+3
+897 
+652 
+341 
+Output8:
+1 0 0
